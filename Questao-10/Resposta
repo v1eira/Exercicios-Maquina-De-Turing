@@ -1,0 +1,5 @@
+R.: Máquina de turing que aceita apenas cadeias iniciadas com 0 seguidas de um ou mais 1, produzindo uma cadeia de saída composta somente por 1.
+Exemplo:
+Entrada -> 0, Saída -> 1
+Entrada -> 011, Saída -> 111
+Entrada -> 0111111, Saída -> 1111111

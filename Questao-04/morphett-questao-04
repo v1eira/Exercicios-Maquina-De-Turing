@@ -1,0 +1,17 @@
+0 1 Y r q1
+0 X X r halt-accept
+
+q1 * * r q1
+q1 X X r q2
+
+q2 1 Z r q3
+q2 = = l q5
+
+q3 * * r q3
+q3 _ 1 l q4
+
+q4 * * l q4
+q4 Z 1 r q2
+
+q5 * * l q5
+q5 Y 1 r 0

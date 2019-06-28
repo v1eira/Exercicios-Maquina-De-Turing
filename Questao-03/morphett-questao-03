@@ -1,0 +1,20 @@
+0 0 Y r q1
+0 1 X r q1
+
+q1 * * r q1
+q1 _ _ l q2
+
+q2 0 _ r q3
+q2 1 _ r q5
+q2 X @ r q7
+q2 Y @ r q6
+
+q3 _ 0 l q4
+
+q4 _ _ l q2
+
+q5 _ 1 l q4
+
+q6 _ 0 l half-accept
+
+q7 _ 1 l half-accept

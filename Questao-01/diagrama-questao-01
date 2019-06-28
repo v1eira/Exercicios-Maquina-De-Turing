@@ -4,11 +4,14 @@ digraph finite_state_machine {
 	qaccept
 	node [shape=circle]
 	q0 -> q1 [label = "0/X R"]
+	q0 -> q3 [label = "Y/Y R"]
+
 	q1 -> q1 [label = "0/0 R"]
 	q1 -> q2 [label = "1/Y L"]
+	
 	q2 -> q2 [label = "Y/Y L\n 0/0 L"]
 	q2 -> q0 [label = "X/X R"]
-	q0 -> q3 [label = "Y/Y R"]
+	
 	q3 -> q3 [label = "Y/Y R"]
 	q3 -> qaccept [label = "B/B R"]
 }
