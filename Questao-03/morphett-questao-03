@@ -15,6 +15,6 @@ q4 _ _ l q2
 
 q5 _ 1 l q4
 
-q6 _ 0 l half-accept
+q6 _ 0 l halt-accept
 
-q7 _ 1 l half-accept
+q7 _ 1 l halt-accept
