@@ -1,5 +1,6 @@
 # Trabalho 3 - Máquinas de Turing e Computabilidade
 
+## Linguagens Formais e Autômatos - Bach. Sistemas de Informação
 ## Autor: Ewerson Vieira Nascimento
 
 ### Questão 1
@@ -61,7 +62,10 @@
 #### Resposta:
 É uma máquina de turing que aceita apenas cadeias iniciadas com 0 seguidas de um ou mais 1, produzindo uma cadeia de saída composta somente por 1.
 
-Exemplo: <br>
-`Entrada: 0 | Saída: 1` <br>
-`Entrada: 011 | Saída: 111`<br>
-`Entrada: 0111111 | Saída: 1111111`
+Exemplo:
+
+Entrada|Saída  |
+-------|-------|
+0      |1
+011    |111
+0111111|1111111

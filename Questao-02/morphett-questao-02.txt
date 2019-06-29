@@ -1,3 +1,5 @@
+Questão 2
+
 0 a x r q1
 0 y y r q4
 0 x x r halt-reject
