@@ -1,0 +1,12 @@
+digraph finite_state_machine {
+	rankdir=LR size="8,5"
+	node [shape=doublecircle]
+	accept
+	node [shape=circle]
+	q0 -> q0 [label = "*/*/r"]
+	q0 -> q1 [label = "_/_/l"]
+	
+	q1 -> q1 [label = "0/1/l"]
+	q1 -> accept [label = "1/0/l"]
+	
+}

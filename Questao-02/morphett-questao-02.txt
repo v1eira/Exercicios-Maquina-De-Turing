@@ -1,0 +1,19 @@
+0 a x r q1
+0 y y r q4
+0 x x r halt-reject
+
+q1 * * r q1
+q1 b y r q2
+q1 _ _ r halt-reject
+
+q2 * * r q2
+q2 c z l q3
+q2 _ _ r halt-reject
+
+q3 * * l q3
+q3 x x r 0
+
+q4 * * r q4
+q4 _ _ r halt-accept
+q4 a a r halt-reject
+q4 b b r halt-reject

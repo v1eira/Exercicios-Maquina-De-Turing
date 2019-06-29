@@ -1,0 +1,20 @@
+digraph finite_state_machine {
+	rankdir=LR size="8/5"
+	node [shape=doublecircle]
+	accept
+	node [shape=circle]
+	q0 -> q1 [label = "(a/x/r)"]
+	q0 -> q4 [label = "(y/y/r)"]
+	
+	q1 -> q1 [label = "(a/a/r)"]
+	q1 -> q2 [label = "(b/y/r)"]
+	
+	q2 -> q2 [label = "(b/b/r)"]
+	q2 -> q3 [label = "(c/Z/l)"]
+	
+	q3 -> q3 [label = "(*/*/l)"]
+	q3 -> q0 [label = "(x/x/r)"]
+	
+	q4 -> q4 [label = "(*/*/r)"]
+	q4 -> accept [label = "(_/_/r)"]
+}
