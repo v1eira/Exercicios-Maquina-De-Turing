@@ -3,7 +3,7 @@ digraph finite_state_machine {
 	node [shape=doublecircle]
 	accept
 	node [shape=circle]
-	q0 -> q1 [label = "(0/y/r)\n (1/x/r)"]
+	q0 -> q1 [label = "0/y/r\n 1/x/r"]
 	
 	q1 -> q1 [label = "*/*/r"]
 	q1 -> q2 [label = "_/_/l"]

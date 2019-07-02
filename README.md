@@ -69,3 +69,5 @@ Entrada|Saída  |
 0      |1
 011    |111
 0111111|1111111
+
+<b>Diagramas feitos utilizando [Graphviz Online](https://dreampuf.github.io/GraphvizOnline/).<b>
