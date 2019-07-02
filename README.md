@@ -3,6 +3,30 @@
 ## Linguagens Formais e Autômatos - Bach. Sistemas de Informação
 ## Autor: Ewerson Vieira Nascimento
 
+### Ferramentas utilizadas
+Trabalho realizado utilizando [Graphviz Online](https://dreampuf.github.io/GraphvizOnline/) para construção dos diagramas de Máquina de Turing e [Turing Machine Simulator (Morphett)](http://morphett.info/turing/turing.html) para simulação do funcionamento das Máquinas de Turing propostas em cada resolução.
+
+### Descrição geral do do trabalho
+Cada diretório relativo à resolução de questões envolvendo a elaboração do diagrama da Máquina de Turing e o código do simulador Morphett contém um arquivo com o código do diagrama no Graphviz, a imagem do diagrama e o código do simulador Morphett. A exceção é a Questão 10, pois o formato de sua resolução difere das demais. Assim, os arquivos deste trabalho estão estruturados da seguinte maneira:
+
+```
+Questao-01
+|_ diagrama-questao-01.png
+|_ diagrama-questao-01.txt
+|_ morphett-questao-01.txt
+Questao-02
+|_ diagrama-questao-02.png
+|_ diagrama-questao-02.txt
+|_ morphett-questao-02.txt
+...
+Questao-09
+|_ diagrama-questao-09.png
+|_ diagrama-questao-09.txt
+|_ morphett-questao-09.txt
+Questao-10
+|_ Resposta.txt
+```
+
 ### Questão 1
 
 ![questao-01](Questao-01/diagrama-questao-01.png)
@@ -69,5 +93,3 @@ Entrada|Saída  |
 0      |1
 011    |111
 0111111|1111111
-
-<b>Diagramas feitos utilizando [Graphviz Online](https://dreampuf.github.io/GraphvizOnline/).<b>
